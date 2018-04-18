@@ -1,9 +1,8 @@
 <?php
-  $string = "Ubuntu,Arch,CentOS,Kali,fedora"
+  $string = "Ubuntu,Arch,CentOS,Kali,fedora";
+  print_r($string . "\n");
   $list = explode(',', $string);
   foreach($list as $value)
   {
-    echo $value;
+    print_r($value . "\n");
   }
-    
-
